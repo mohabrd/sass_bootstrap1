@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./public/css/style.css">
+    <title>exo sass bootstrap 1</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg bg-primary">
+        <div class="container-fluid">
+            <a class="navbar-brand text-white" href="#">Navbar</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active text-white" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="#">Link</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle text-white" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Dropdown
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item text-white" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                    </li>
+                </ul>
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+
+    <main>
+        <div class="p-3 mb-2 bg-secondary text-white" style="height: 17rem">
+            <p class="h1 text-dark">Ici vous avez le component jumbotron</p>
+            <p class="fs-5 text-dark">Il y a même du texte que vous pouvez rajouter pour des explications supplémentaire
+            </p>
+            <div class="text-success">
+                <hr>
+            </div>
+            <p class="fs-6 text-dark">Ici des informations supplémentaire</p>
+            <button type="button" class="btn btn-primary">Un bouton déjà tout fait pour vous</button>
+        </div>
+        <div class="container-lg">
+            <p class="fs-1">Nous nous trouvons ici dans un container qui est limiter en <br> largueur <span
+                    class="badge text-bg-success">et ceci est un badge</span></p>
+            </h1>
+            <p class="fs-2">voila ici une collection de différent type de badge</p>
+            <a href="#" class="badge text-bg-primary">moi je suis un lien</a>
+            <span class="badge text-bg-danger rounded-pill">moi je suis arrondi</span>
+            <span class="badge text-bg-warning">et moi j'arbore juste une autre couleur</span>
+        </div>
+        <div class="container-fluid text-center">
+            <p class="fs-1">Vous avez ici un container fluid</p>
+            <p class="fs-6 text-dark">mais qu'est ce que cela veut dire ? Quelle est la différence ? Et pourquoi le texte est soudainement centré </p>
+            <div class="d-grid gap-2 col-6 mx-auto rougeclair">
+                <button class="btn btn-primary text-start rougeclair pt-2.5 pb-3" type="button rougeclair"><span class="fw-bolder align-middle">Recherche dans la doc ..... LA DOOOOOOOOC!!!!!!</span></button>
+              </div>
+          </div>
+    </main>
+
+
+</body>
+
+</html>
